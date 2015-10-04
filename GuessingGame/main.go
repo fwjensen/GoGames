@@ -16,6 +16,7 @@ func main(){
 	fmt.Println("Guess a number between 1 and 10?")
 	for true{
 		fmt.Scan(&x);
+		this will not work
 		i++
 		if(x == randNum){
 			fmt.Printf("Wow, you guessed it! Only took you %d trie(s)",i)
